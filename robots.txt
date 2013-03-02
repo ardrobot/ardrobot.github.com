@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://ardrobot.github.com/sitemap.xml 
+Sitemap: http://ardrobot.com/sitemap.xml 
