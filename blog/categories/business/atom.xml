@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ardrobot]]></title>
-  <link href="http://ardrobot.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Business | Ardrobot]]></title>
+  <link href="http://ardrobot.com/blog/categories/business/atom.xml" rel="self"/>
   <link href="http://ardrobot.com/"/>
   <updated>2013-03-01T23:15:16-08:00</updated>
   <id>http://ardrobot.com/</id>
@@ -18,9 +18,9 @@
     <link href="http://ardrobot.com/blog/2013/03/01/were-just-getting-started/"/>
     <updated>2013-03-01T23:13:00-08:00</updated>
     <id>http://ardrobot.com/blog/2013/03/01/were-just-getting-started</id>
-    <content type="html"><![CDATA[<p>It&#8217;s time to spin up the Ardrobot blog and start looping everyone in on all the cool things we have been working on over many, many months.</p>
+    <content type="html"><![CDATA[<p>It's time to spin up the Ardrobot blog and start looping everyone in on all the cool things we have been working on over many, many months.</p>
 
-<p>Stay tuned&#8230;</p>
+<p>Stay tuned...</p>
 ]]></content>
   </entry>
   
