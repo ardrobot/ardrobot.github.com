@@ -29,9 +29,9 @@
   <link href="/stylesheets/font-awesome.min.css" rel="stylesheet">
   <link href="/stylesheets/screen.css" rel="stylesheet" type="text/css">
 
-  <script src="/javascripts/modernizr-2.0.js"></script>
+  <!-- <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script> -->
 
   <link href="/atom.xml" rel="alternate" title="Ardrobot" type="application/atom+xml">
 
@@ -169,7 +169,7 @@
       <div class="row">
         <div class="span7">
           <p class="lead">Are you a software developer, engineer, maker, or just really handy with duct tape?  If so, we need your help!</p>
-          <p><strong>We are currently in our first developer release</strong> of the core Ardrobot components.  The initial version allows you to spin-up a local Ardrobot server on your computer and control a robot over your local wifi connection.  This will let us test and improve the software, as well as make a number of Ardrobot compatible robots, before we roll out on a larger scale.  And, since all of the components we are releasing are open source, you can help us make them better.</p>
+          <p><strong>We are currently in our first developer preview</strong> of the core Ardrobot components.  The initial version allows you to spin-up a local Ardrobot server on your computer and control a robot over your local wifi connection.  This will let us test and improve the software, as well as make a number of Ardrobot compatible robots, before we roll out on a larger scale.  And, since all of the components we are releasing are open source, you can help us make them better.</p>
           <p>Check out the <a href="https://github.com/ardrobot/ardrobot.github.com/wiki">Ardrobot Wiki</a> for more information and to find out how you can get involved.</p>
         </div>
         <div class="span4 offset1">
@@ -180,6 +180,16 @@
 
     <hr class="featurette-divider">
 </div>
+
+<!-- Javascripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script src="/javascripts/jquery.localscroll-1.2.7-min.js"></script>
+<script src="/javascripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#nav').localScroll(2000);
+})
+</script>
 
     </div>
   </div>
