@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div>
-<article role="article">
+<div class="page">
+<article role="article" class="span8">
   {% if page.title %}
   <header>
     <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
@@ -32,7 +32,7 @@ layout: default
 {% endif %}
 </div>
 {% unless page.sidebar == false %}
-<aside class="sidebar">
+<aside class="sidebar span4">
   {% if site.page_asides.size %}
     {% include_array page_asides %}
   {% else %}
